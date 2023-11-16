@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    font-family: 'Yantramanav', sans-serif;
+    padding: 0;
+ }
+
+ .header {
+    width: 100%;
+    height: 41px;
+    background-color: #fb0;
+ }
+
+ .iconpesan {
+    width: 25px;
+    height: 19.512px;
+    flex-shrink: 0; 
+    position: relative;
+    top: 10px;
+    left: 50px;
+
+ }
+
+ .icontlpn {
+    width: 25px;
+    height: 27px;
+    position: relative;
+    top: -68px;
+    left: 208px;
+
+}
+
+.nav {
+    width: 100%;
+    height: 109px;
+    background: linear-gradient(180deg, #A4A4A4 0%, rgba(231, 231, 231, 0.00) 100%);
+}
+
+.logounj {
+    width: 73px;
+    height: 72px; 
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.study {
+    width: 56px;
+    height: 56px; 
+    position: relative;
+    left: 32px;
+    top: 4px;
+}
+
+.profile{
+    width: 72px;
+    height: 66.24px; 
+    position: relative;
+    top: -32px;
+    left: 172px;
+    margin: 8px;
+}
+
+.notif{
+    width: 64px;
+    height: 64px; 
+    position: relative;
+    top: -32px;
+    left: 172px;
+    margin: 8px;
+}
+
+.search{
+    width: 64px;
+    height: 58.88px;   
+    position: relative;
+    top: -32px; 
+    left: 172px;
+    margin: 8px;
+}
+
+.mku {
+    width: 807px;
+height: 372px;
+border-radius: 15px;
+border: 1px solid #000;
+box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+
+.search-box {
+    top: 20%;
+    left: 50%;
+    background: #4c5270;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 30px;
+    position: absolute;
+    margin-top: 564px;
+}
+ 
+ 
+.search-btn {
+    color: #ffffff;
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #189ab4;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+ 
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    width: 0px;
+    line-height: 40px;
+    transition: 0.5s;
+}
+ 
+.search-box:hover > .search-input{
+    width: 240px;
+    padding: 0 10px;
+    margin-right: 5px !important;
+    background: white;
+    border-radius: 5px;
+    color: black;
+}
+ 
+.search-box:hover > .search-btn {
+    background: #E9dac4;
+    color: #189ab4;
+}
+
+.fakultas {
+    background: #F3F4F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    height: auto; 
+    width: 100%;
+
+}
+
+
+.textfakultas {
+    font-size: 40px; 
+    color: #000; 
+}
+
+.sambutan{
+    margin-top: 128px;
+}
+
+.textfakultas2{
+    color: #7C7C7C; 
+    font-size: 20px; 
+    margin-top: -24px;
+}
+
+.imgrektor {
+     width: 663px;
+     height: 355px; 
+     border-radius: 15px;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.judul {
+    color: #000; 
+    font-size: 40px; 
+}
+
+.namarektor{
+    font-size: 24px; 
+    color: #7C7C7C; 
+    margin-top: -48px;
+}
+
+.isisambutan {
+    text-align: justify; 
+    width: 538px;
+    height: 352px; 
+    font-size: 20px; 
+    color: #7C7C7C;
+
+}
+
+.atasfooter {
+    width: 100%px;
+    height: fit-content; 
+    background: #F3F4F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-top: 188px;
+    }
+    
+    .online{
+       color: #000;
+       font-size: 40px;
+       font-weight: 400;
+    
+       
+    }
+    .img1{
+        width: 40px; 
+        height: 40px;
+     }
+     .build{
+        color: #7C7C7C;
+        font-size: 20px;
+        font-weight: 400; 
+        margin-top: -32px;
+     }
+
+
+    .gambar4{
+        width: 432px;
+        height: 256px; 
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 372px;
+        margin-top: -256px;
+     
+     }
+
+    .textgogy1 {
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        align-items: center; display: flex;
+        position: relative;
+     
+      
+     
+     }
+     
+     .textisigogy1 {
+        color: #7C7C7C;
+        text-align: justify;
+        font-size: 22px;
+        font-weight: 400;
+        width: 388px;
+        position: relative;
+     
+     
+     }
+
+     .footer{
+        width: 100%; 
+        height: 279px;  
+        background-color: #fb0; 
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        margin-top: 548px;
+        }
+        
+        .copyright {
+        width: 25px;
+        height:  25px; 
+        margin-left: 48px;
+        }
+
+
+        @media screen and (max-width: 1324px) {
+
+            .img1{
+                width: 40px; 
+                height: 40px;
+             }
+        
+        
+            .gambar4{
+                width: 432px;
+                height: 256px; 
+                border-radius: 15px;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                position: relative;
+                top: 208px;
+                margin-top: -256px;
+             
+             }
+        
+            .textgogy1 {
+                color: #000;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 400;
+                align-items: center; 
+                position: relative;
+                top: 324px;
+             
+              
+             
+             }
+             
+             .textisigogy1 {
+                color: #7C7C7C;
+                text-align: justify;
+                font-size: 22px;
+                font-weight: 400;
+                width: 388px;
+                position: relative;
+                top: 324px;
+             
+             
+             }
+
+             .footer{
+                width: 100%; 
+                height: 279px;  
+                background-color: #fb0; 
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+                margin-top: 1024px;
+                }
+
+
+        }
+
+
+        @media screen and (max-width: 937px) {
+            .footer{
+                width: 100%; 
+                height: 279px;  
+                background-color: #fb0; 
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+                margin-top: 1508px;
+                }
+
+        }

@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Yantramanav', sans-serif;
+    padding: 0;
+    background: url(pexels-tetyana-kovyrina-937980.jpg);
+    background-blend-mode: soft-light;
+    background-size: cover;
+
+
+   
+}
+@media screen and (min-device-width: 1255px) { 
+.header {
+    width: 100%px;
+    height: 41px;
+    background-color: #fb0;
+}
+
+.iconpesan {
+    width: 25px;
+    height: 19.512px;
+    flex-shrink: 0; 
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.icontlpn {
+    width: 25px;
+    height: 27px;
+    position: relative;
+    top: -68px;
+    left: 208px;
+
+}
+
+.kotakregister {
+    width: 518px;
+    height: 824px; 
+    border-radius: 25px;
+    background: rgba(0, 148, 50, 0.42);
+    margin-left: 128px;
+}
+
+.textNA{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 32px;
+    margin-top: 0;
+
+}
+
+.textchoose{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 32px;
+    position: relative;
+    top: 6px;
+}
+
+.textinput{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+.kotakinput{
+    width: 208px;
+    height: 24px; 
+    border-radius: 5px;
+    background: #D9D9D9; 
+    margin-top: 8px;
+
+}
+
+.kotakinput2{
+    width: 296px;
+    height: 24px; 
+    border-radius: 5px; 
+    background: #D9D9D9; 
+}
+
+.kotakkuning{
+    width: 518px;
+    height: 40px; 
+    border-radius: 5px; 
+    background-color: #FFF500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+select {
+    border-radius: 5px;
+    background: #D9D9D9; 
+    width: 160px;
+    height: 24px; 
+    margin-left: 62px;
+}
+
+.create {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    width: 204px;
+    height: 33px; 
+    border-radius: 10px;
+    background: #FFF500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+    
+}
+
+.create:hover, .create:focus, .create:active{
+    box-shadow: 0 0 20px rgb(2, 247, 76);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.cancel {
+    border-radius: 10px;
+    background: #FFF500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 102px;
+    height: 33px; 
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+    
+}
+
+.cancel:hover, .cancel:focus, .cancel:active{
+    box-shadow: 0 0 20px rgb(2, 247, 76);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gambarpanduan {
+    width: 350px;
+    height: 517px; 
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+
+.posisipanduan{
+    float: right;
+    margin-right: 256px;
+    margin-top: 196px;
+}
+
+.btn-panduan {
+    border-radius: 15px;
+    background: #FFF500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 191px;
+    border: none;
+    text-decoration: none;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000; 
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+    
+}
+
+.btn-panduan:hover, .btn-panduan:focus, .btn-panduan:active{
+    box-shadow: 0 0 20px rgba(243, 247, 2, 0.752);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1254px) { 
+    .header {
+        width: 100%px;
+        height: 41px;
+        background-color: #fb0;
+    }
+    
+    .iconpesan {
+        width: 25px;
+        height: 19.512px;
+        flex-shrink: 0; 
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+    
+    .icontlpn {
+        width: 25px;
+        height: 27px;
+        position: relative;
+        top: -68px;
+        left: 208px;
+    
+    }
+    
+    .kotakregister {
+        width: 464px;
+        height: 824px; 
+        border-radius: 25px;
+        background: rgba(0, 148, 50, 0.42);
+        margin-left: 128px;
+    }
+
+    .textNA{
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 400;
+        margin-left: 32px;
+        margin-top: 0;
+    
+    }
+    
+    .textchoose{
+        color: #000;
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 32px;
+        position: relative;
+        top: 6px;
+    }
+    
+    .textinput{
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+    
+    
+    }
+    
+    .kotakinput{
+        width: 172px;
+        height: 24px; 
+        border-radius: 5px;
+        background: #D9D9D9; 
+        margin-top: 8px;
+    
+    }
+    
+    .kotakinput2{
+        width: 216px;
+        height: 24px; 
+        border-radius: 5px; 
+        background: #D9D9D9; 
+    }
+
+    .kotakkuning{
+        width: 464px;
+        height: 40px; 
+        border-radius: 5px; 
+        background-color: #FFF500;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+
+    select {
+        border-radius: 5px;
+        background: #D9D9D9; 
+        width: 160px;
+        height: 24px; 
+        margin-left: 62px;
+    }
+
+    .create {
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        width: 172px;
+        height: 33px; 
+        border-radius: 10px;
+        background: #FFF500;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    
+        
+    }
+    
+    .create:hover, .create:focus, .create:active{
+        box-shadow: 0 0 20px rgb(2, 247, 76);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .cancel {
+        border-radius: 10px;
+        background: #FFF500;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 102px;
+        height: 33px; 
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        border: none;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    
+        
+    }
+    
+    .cancel:hover, .cancel:focus, .cancel:active{
+        box-shadow: 0 0 20px rgb(2, 247, 76);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .gambarpanduan {
+        width: 350px;
+        height: 517px; 
+        border-radius: 16px;
+
+    
+    }
+    
+    .posisipanduan{
+        float: right;
+        margin-right: 64px;
+        margin-top: 196px;
+    }
+    
+    .btn-panduan {
+        border-radius: 15px;
+        background: #FFF500;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 191px;
+        border: none;
+        text-decoration: none;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #000; 
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    
+        
+    }
+    
+    .btn-panduan:hover, .btn-panduan:focus, .btn-panduan:active{
+        box-shadow: 0 0 20px rgba(243, 247, 2, 0.752);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    @media screen and (min-device-width: 895px) and (max-device-width: 1023px) { 
+        .posisipanduan{
+            float: right;
+            margin-right: 16px;
+            margin-top: 196px;
+        }
+
+        .kotakregister {
+            width: 464px;
+            height: 824px; 
+            border-radius: 25px;
+            background: rgba(0, 148, 50, 0.42);
+            margin-left: 64px;
+            margin-top: 32px;
+        }
+
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 894px) { 
+        
+        
+        /* .kotakregister {
+            width: 464px;
+            height: 824px; 
+            border-radius: 25px;
+            background: rgba(0, 148, 50, 0.42);
+            position: relative;
+            left: 24px;
+        } */
+
+
+        .posisipanduan{
+            float: right;
+            position: relative;
+            right: 372px;
+            top: 1128px;
+            margin: -64px;
+        }
+
+        /* .gambarpanduan {
+            width: 350px;
+            height: 517px; 
+            border-radius: 16px;
+            position: relative;
+    
+        
+        } */
+
+        @media screen and (min-device-width: 613px) and (max-device-width: 894px) { 
+            .posisipanduan{
+                float: right;
+                position: relative;
+                right: 308px;
+                top: 1128px;
+                margin: -164px;
+            }
+        }
+
+
+    }
+
+
+
+
+}

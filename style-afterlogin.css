@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;400;700&display=swap');
+
+         body {
+            margin: 0;
+            font-family: 'Yantramanav', sans-serif;
+            padding: 0;
+         }
+
+         .header {
+            width: 100%;
+            height: 41px;
+            background-color: #fb0;
+         }
+
+         .iconpesan {
+            width: 25px;
+            height: 19.512px;
+            flex-shrink: 0; 
+            position: relative;
+            top: 10px;
+            left: 50px;
+
+         }
+
+         .icontlpn {
+            width: 25px;
+            height: 27px;
+            position: relative;
+            top: -68px;
+            left: 208px;
+
+        }
+
+        .nav {
+            width: 100%;
+            height: 109px;
+            background: linear-gradient(180deg, #A4A4A4 0%, rgba(231, 231, 231, 0.00) 100%);
+        }
+
+        .logounj {
+            width: 73px;
+            height: 72px; 
+            position: relative;
+            left: 50px;
+            top: 10px;
+        }
+
+        .study {
+            width: 56px;
+            height: 56px; 
+            position: relative;
+            left: 32px;
+            top: 4px;
+        }
+
+        .btn-login {
+          
+            padding: 16px 32px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px; 
+            border-radius: 15px;
+            background: #FFF500; 
+            position: relative;
+            left: 616px;
+            top: -100px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            text-decoration: none;
+            color: rgb(111, 111, 111);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+            
+
+            
+        }
+
+        .btn-login:hover, .btn-login:focus, .btn-login:active{
+            box-shadow: 0 0 20px rgba(243, 247, 2, 0.5);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        .profile{
+            width: 72px;
+            height: 66.24px; 
+            position: relative;
+            top: -32px;
+            left: 96px;
+            margin: 8px;
+        }
+
+        .notif{
+            width: 64px;
+            height: 64px; 
+            position: relative;
+            top: -32px;
+            left: 96px;
+            margin: 8px;
+        }
+
+        .search{
+            width: 64px;
+            height: 58.88px;   
+            position: relative;
+            top: -32px; 
+            left: 96px;
+            margin: 8px;
+        }
+
+        .iconhome{
+            width: 25px;
+            height: 24.872px; 
+            margin: 2px;
+            position: relative;
+            top: 9px;
+            left: -16px;
+        }
+
+        .btn-sitehome{
+            text-decoration: none;
+            border-radius: 5px 5px 5px 5px; background: #FB0; width: 119px; height: 29px; 
+            color: #4B4B4B;text-align: center; font-size: 14px;font-weight: 400;
+            padding: 6px 16px;
+        }
+
+        .iconcourse {
+            width: 25px;
+            height: 24.875px; 
+            position: relative;
+            top: 8px;
+            left: -15px;
+        }
+
+        .btn-course{
+            text-decoration: none;
+            border-radius: 5px 5px 5px 5px; background: #1B8F2D;; width: 119px; height: 29px; 
+            color: #FFF;text-align: center; font-size: 14px;font-weight: 400;
+            padding: 6px 19px;
+            
+        }
+
+        .iconbadge {
+            width: 25px;
+            height: 24.875px; 
+            position: relative;
+            top: 8px;
+            left: -26px;
+        }
+
+        .btn-badge{
+            text-decoration: none;
+            border-radius: 5px 5px 5px 5px; background: #B9211A; width: 119px; height: 29px; 
+            color: #FFF;text-align: center; font-size: 14px;font-weight: 400;
+            padding: 6px 30px;
+        }
+
+        .iconbiru{
+            width: 96px;
+            height: 96px; 
+            position: relative;
+            left: 156px;
+            top: -110px;
+        }
+        .navi{
+            background: #00923F; 
+            border-radius: 10px; 
+            font-size: 22px; 
+            color: #FFF; 
+            margin-left: -99px;
+            padding: 6px 80px;
+            text-decoration: none;
+        }
+
+        .kotaknav{
+            width: 260px;
+            height: 164px; 
+            border-radius: 0px 0px 10px 10px; 
+            background-color: #EFECEC;
+        }
+
+        .kotakonline {
+            background: #00923F; 
+            border-radius: 10px; 
+            font-size: 22px; 
+            color: #FFF; 
+            margin-left: -6px;
+            padding: 6px 80px;
+            text-decoration: none;
+        }
+
+        .on {
+            width: 260px;
+            height: 164px; 
+            border-radius: 0px 0px 10px 10px; 
+            background-color: #EFECEC;
+        }
+
+        .recent{
+            text-align: center; 
+            color: #FFF;
+            font-size: 28px;
+            margin-top: -664px;
+            
+        }
+
+        .course{
+            text-align: center; 
+            color: #202020;
+            font-size: 28px;
+            margin-top: 24px;
+        }
+
+        .footer{
+            width: 100%; 
+            height: 279px;  
+            background-color: #fb0; 
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+            }
+            
+            .copyright {
+            width: 25px;
+            height:  25px; 
+            margin-left: 48px;
+            }
+
+
+        /* 1045 */
+
+        @media screen and (max-width: 1045px) {
+            .btn-login {
+          
+                padding: 16px 32px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px; 
+                border-radius: 15px;
+                background: #FFF500; 
+                position: relative;
+                left: 512px;
+                top: -100px;
+                
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                text-decoration: none;
+                color: rgb(111, 111, 111);
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: box-shadow, transform;
+                transition-property: box-shadow, transform;
+                
+    
+                
+            }
+    
+            .btn-login:hover, .btn-login:focus, .btn-login:active{
+                box-shadow: 0 0 20px rgba(243, 247, 2, 0.5);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+
+            .profile{
+                width: 72px;
+                height: 66.24px; 
+                position: relative;
+                top: -32px;
+                left: 48px;
+                margin: 8px;
+            }
+    
+            .notif{
+                width: 60px;
+                height: 60px; 
+                position: relative;
+                top: -32px;
+                left: 48px;
+                margin: 8px;
+            }
+    
+            .search{
+                width: 62px;
+                height: 56px;   
+                position: relative;
+                top: -32px; 
+                left: 48px;
+                margin: 8px;
+            }
+        }
+
+
+        @media screen and (max-width: 845px) {
+
+            .btn-login {
+          
+                padding: 10px 30px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px; 
+                border-radius: 15px;
+                background: #FFF500; 
+                position: relative;
+                left: 416px;
+                top: -100px;
+                
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                text-decoration: none;
+                color: rgb(111, 111, 111);
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: box-shadow, transform;
+                transition-property: box-shadow, transform;
+                
+    
+                
+            }
+    
+            .btn-login:hover, .btn-login:focus, .btn-login:active{
+                box-shadow: 0 0 20px rgba(243, 247, 2, 0.5);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+
+            .profile{
+                width: 64x;
+                height: 64px; 
+                position: relative;
+                top: -32px;
+                left: 10px;
+                margin: 8px;
+            }
+    
+            .notif{
+                width: 56px;
+                height: 60px; 
+                position: relative;
+                top: -32px;
+                left: 10px;
+                margin: 8px;
+            }
+    
+            .search{
+                width: 56px;
+                height: 50px;   
+                position: relative;
+                top: -35px; 
+                left: 10px;
+                margin: 8px;
+            }
+
+
+        }
